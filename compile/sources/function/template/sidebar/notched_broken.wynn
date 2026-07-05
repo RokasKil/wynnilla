@@ -1,0 +1,23 @@
+notch_count broken_count
+concat_st(
+    {$sidebar^{:offset}};
+    {$pan@-13};
+    if(gte({:notch_count}; 1); {$notch^{:offset+3}}; if(gte(add({:notch_count}; {:broken_count}); 1); {$notch_broken^{:offset+3}}; {$pan@11}));
+    {$pan@-11};
+    if(gte({:notch_count}; 2); {$notch^{:offset+7}}; if(gte(add({:notch_count}; {:broken_count}); 2); {$notch_broken^{:offset+7}}; {$pan@11}));
+    {$pan@-11};
+    if(gte({:notch_count}; 3); {$notch^{:offset+11}}; if(gte(add({:notch_count}; {:broken_count}); 3); {$notch_broken^{:offset+11}}; {$pan@11}));
+    {$pan@-11};
+    if(gte({:notch_count}; 4); {$notch^{:offset+15}}; if(gte(add({:notch_count}; {:broken_count}); 4); {$notch_broken^{:offset+15}}; {$pan@11}));
+    {$pan@-11};
+    if(gte({:notch_count}; 5); {$notch^{:offset+19}}; if(gte(add({:notch_count}; {:broken_count}); 5); {$notch_broken^{:offset+19}}; {$pan@11}));
+    {$pan@-11};
+    if(gte({:notch_count}; 6); {$notch^{:offset+23}}; if(gte(add({:notch_count}; {:broken_count}); 6); {$notch_broken^{:offset+23}}; {$pan@11}));
+    {$pan@-11};
+    if(gte({:notch_count}; 7); {$notch^{:offset+27}}; if(gte(add({:notch_count}; {:broken_count}); 7); {$notch_broken^{:offset+27}}; {$pan@11}));
+    {$pan@-11};
+    if(gte({:notch_count}; 8); {$notch^{:offset+31}}; if(gte(add({:notch_count}; {:broken_count}); 8); {$notch_broken^{:offset+31}}; {$pan@11}));
+    {$pan@-11};
+    if(gte({:notch_count}; 9); {$notch^{:offset+35}}; if(gte(add({:notch_count}; {:broken_count}); 9); {$notch_broken^{:offset+35}}; {$pan@11}));
+    {$pan@-14}
+)

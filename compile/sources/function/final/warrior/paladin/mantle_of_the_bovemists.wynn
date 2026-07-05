@@ -1,2 +1,5 @@
 offset
-{template/sidebar/cooldown(status_effect_active("Shield"), int(add(value(status_effect_duration("Shield")); 1)), sidebar_mantle_of_the_bovemists)}
+if(or(gt(mantle_shield_count; 0); gt(broken_mantle_shield_count; 0));
+    {template/sidebar/notched_broken(mantle_shield_count, broken_mantle_shield_count)};
+    {template/sidebar/cooldown(status_effect_active("Shield"), int(add(value(status_effect_duration("Shield")); 1)), sidebar_mantle_of_the_bovemists)}
+)

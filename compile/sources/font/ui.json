@@ -541,6 +541,16 @@
             "path": "wynnilla:font/shaman/summoner/totems.png",
             "height": 41,
             "chars": [1, 1]
+        },
+        "notch": {
+            "path": "wynnilla:font/base/notch.png",
+            "height": 4,
+            "chars": [1, 1]
+        },
+        "notch_broken": {
+            "path": "wynnilla:font/base/notch-broken.png",
+            "height": 4,
+            "chars": [1, 1]
         }
     }
 }
