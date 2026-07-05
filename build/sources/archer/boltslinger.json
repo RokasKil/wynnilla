@@ -1,17 +1,22 @@
 [
     {
-        "target": "final/archer/boltslinger/frenzy",
+        "target": "final/archer/boltslinger/arrow_shield",
         "x": 0,
         "y": 34
     },
     {
+        "target": "final/archer/boltslinger/frenzy",
+        "x": 16,
+        "y": 34
+    },
+    {
         "target": "final/archer/boltslinger/leap",
-        "x": 2,
+        "x": 18,
         "y": 21
     },
     {
         "target": "final/archer/boltslinger/parting_gift",
-        "x": 16,
+        "x": 32,
         "y": 21
     }
 ]

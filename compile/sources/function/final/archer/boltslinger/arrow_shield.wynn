@@ -1,0 +1,2 @@
+offset
+{template/sidebar/notched(gt(add(arrow_shield; guardian_angels); 0), sidebar_arrow_shield, add(arrow_shield; guardian_angels))}

@@ -551,6 +551,11 @@
             "path": "wynnilla:font/base/notch-broken.png",
             "height": 4,
             "chars": [1, 1]
+        },
+        "sidebar_arrow_shield": {
+            "path": "wynnilla:font/archer/boltslinger/arrow-shield.png",
+            "height": 41,
+            "chars": [1, 1]
         }
     }
 }
