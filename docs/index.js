@@ -11,9 +11,7 @@ let services = [
                 "preview_path": null,
                 "enabled_path": "archer",
                 "children": [],
-                "issues": [
-                    "Guardian Angels: To be added"
-                ]
+                "issues": []
             },
             {
                 "title": "Trapper",
@@ -180,16 +178,14 @@ let services = [
                 "preview_path": null,
                 "enabled_path": "warrior",
                 "children": [],
-                "issues": [
-                    "Mantle of the Bovemist charges: Planned"
-                ]
+                "issues": []
             }
         ],
         "issues": []
     }
 ]
 
-let last_update_date = new Date(2026, 5, 25);
+let last_update_date = new Date(2026, 6, 5);
 
 async function copy_template_text(file_path) {
     const response = await fetch(file_path);
