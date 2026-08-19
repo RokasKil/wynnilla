@@ -1,0 +1,13 @@
+offset
+{$bar_bg_vanish@0^{:offset}};
+{$pan@-73};
+concat_st(
+    {$pan@11};
+    {template/bar/capped/fill/left(capped(max(0; sub(100; ticks_since_specific_spell("Smoke|Bomb"))); 100), bar_vanish)};
+    {$pan@-68};
+    {$pan@36};
+    {text/bar/cooldown/prefix(ceil(div(max(0; sub(100; ticks_since_specific_spell("Smoke|Bomb"))); 20)))};
+    {text/bar/cooldown/content(ceil(div(max(0; sub(100; ticks_since_specific_spell("Smoke|Bomb"))); 20)))};
+    {text/bar/cooldown/suffix(ceil(div(max(0; sub(100; ticks_since_specific_spell("Smoke|Bomb"))); 20)))};
+    {$pan@-36}
+)
